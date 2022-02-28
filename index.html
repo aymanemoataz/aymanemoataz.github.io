@@ -38,8 +38,8 @@
 						</ul>
 						<ul class="icons">
 							<li><a href="https://github.com/aymanemoataz" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://www.linkedin.com/in/aymanemoataz/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-						</ul>
+				<!-- <li><a href="https://www.linkedin.com/in/aymanemoataz/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li> -->
+			</ul>
 					</nav>
 
 				<!-- Main -->
@@ -50,29 +50,32 @@
 						<!-- Posts -->
 							<section class="posts">
 
+
 								<article>
 									<header>
-										<h2><a href="https://github.com/aymanemoataz/Monk-AI---Data-quality-assessment">Évaluation de la qualité des images de véhicules</h2>
-									</header>
-									<p class = "image fit"><img src="images/git3.gif" height = "360px" class = center alt="" /></p>
-									<p>Nous utilisons des modèles de détection d'objets de pointe sur chaque trame vidéo en temps réel (76 FPS). Nous développons un outil permettant d'évaluer la qualité des images vidéo pour un algorithme de détection de sinistres automobiles. Nous passons donc par des modèles d'apprentissage profond rapides afin d'extraire une métrique de confiance pour chaque partie du véhicule sélectionnée en utilisant les scores de confiance. L'objectif est d'appliquer cet outil pour réduire le flux de données à l'entrée de l'algorithme de segmentation sémantique.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/aymanemoataz/Monk-AI---Data-quality-assessment" class="button">Découvrir le projet</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/aymanemoataz/pytorch-segment-nst/blob/main/README.md">Transfert de style par segments - pytorch</h2>
+										<h2><a href="https://github.com/aymanemoataz/pytorch-segment-nst">Transfert de style par segments - pytorch</h2>
 									</header>
 									<p class="image fit">
 
 										<img src="images/2crop.gif" height="360px"  >
                            
 									</p>
-									<p>Je travaille actuellement sur la détection de pièces de véhicules sur des vidéos et j'ai beaucoup de données étiquetées avec des boîtes de délimitation et des masques de segmentation que je cherche à utiliser pour créer des vidéos artistiques! Dans ce projet, j'explore la théorie du transfert de style en utilisant des méthodes d'optimisation et de feed forward sur des images statiques avant de travailler sur des segments d'images puis des vidéos.
-									</p>
+									<p>Je travaille actuellement sur la détection de pièces de véhicules sur des vidéos et j'ai décidé d'explorer le transfert de style et les modèles de segmentation sémantiques. L'inference naive sur des vidéos donne des résultats instables ce qui m'a poussé a exploré une perte temporelle pour stabiliser les résultats et créer des vidéos artistiques. J'ai décidé de travailler sur ce projet personnel pour continuer à apprendre des techniques de Deep Learning en parallèle avec mon travail en projet avec des détecteurs de parties automobiles en une étape.
 									<ul class="actions special">
-										<li><a href="https://github.com/aymanemoataz/pytorch-segment-nst/blob/main/README.md" class="button">Découvrir le projet</a></li>
+											<li><a href="https://github.com/aymanemoataz/pytorch-segment-nst" class="button">Découvrir le projet</a></li>
+									</ul>
+								
+
+								</article>
+
+								<article>
+									<header>
+										<h2><a href="https://github.com/aymanemoataz/Multitask_Model">Algorithme Multitâche - Keras</h2>
+									</header>
+									<p class = "image fit"><img src="images/multi.png" height = "250px" class = center alt="" /></p>
+									<p>L'algorithme multitâche a pour objectif de vérifier la similarité entre deux modèles de véhicules et de les localiser. J'ai préféré adopté une approche end to end Deep Learning avec un script qui fait appel à deux modèle pour résoudre le problème.  J'ai implémenté un réseau siamois en m'inspirant d'un papier scientifique très récent. Le but est de génerer des paires d'images, d'entrainer le réseau à trouver une representation vectorielle dans l'espace de caractéristiques pour différencier entre plus de 190 modèles de véhicules. Pour résoudre la tâche de localisation, j'ai fait appel à l'apprentissage par transfert pour générer une pile de caractéristisue. Ensuite, j'ai modifier le réseau en ajoutant un bloc de régression.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/aymanemoataz/Multitask_Model" class="button">Découvrir le projet</a></li>
 									</ul>
 								</article>
 								<article>
@@ -83,16 +86,6 @@
 									<p>Un projet très amusant à mettre en place vu mon attrait pour le cinéma. J'ai collecté des données des sites imdb et numbers par webscraping afin de comprendre les statistiques descriptives d'un score qui reflète la qualité des films. C'était l'occasion d'appliquer plusieurs modèles d'apprentissage automatique et comprendre leurs fonctionnements en pratique.</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/aymanemoataz/Film_Quality_Prediction" class="button">Découvrir le projet</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/aymanemoataz/ETA_Prediction_Report/blob/main/ETA_prediction.pdf">Prédiction du temps d'arrivé des camions de livraison </h2>
-									</header>
-									<p class="image fit"><img src="images/exploration7.png" height="300px" alt="" /></p>
-									<p>J'ai travaillé sur la problématique de prédiction d'ETA. J'ai pu récupérer des données de livraisons afin d'effectuer une analyse exploratoire et de prédire le temps d'arriver des camions. J'ai également effectué la prédiction des retards par un modèle de classification pour comparer les résultats des deux modèles. </p>
-									<ul class="actions special">
-										<li><a href="https://github.com/aymanemoataz/ETA_Prediction_Report/blob/main/ETA_prediction.pdf" class="button">Découvrir le projet</a></li>
 									</ul>
 								</article>
 
@@ -118,7 +111,7 @@
 		<section>
 			<h3>Social</h3>
 			<ul class="icons alt">
-				<li><a href="https://www.linkedin.com/in/aymanemoataz/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+				<!-- <li><a href="https://www.linkedin.com/in/aymanemoataz/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li> -->
 
 				<li><a href="https://github.com/aymanemoataz" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 			</ul>
